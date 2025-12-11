@@ -299,18 +299,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/1",
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F1/page/annotations",
           "type": "AnnotationPage",
-          "items": [ {
-            "id": "https://example.org/iiif/placeholder-annotation/page1",
-            "motivation": "commenting",
-            "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F1",
-            "body": {
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F1/annotation/placeholder-1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F1",
+              "body": {
                 "type": "TextualBody",
-                "value": "N. 1. L'innocence de l'erreur soutenue et justifiée dans une lettrea Mr _ _ _ _ _",
-                "format": "text/plain"
-          }
-        }]
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 1"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -365,15 +372,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/2",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F2",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 2.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F2/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F2/annotation/placeholder-2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F2",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 2"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -428,15 +445,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/3",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F3",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 3.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F3/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F3/annotation/placeholder-3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F3",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 3"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -491,15 +518,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/4",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F4",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 4.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F4/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F4/annotation/placeholder-4",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F4",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 4"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -554,15 +591,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/5",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F5",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 5.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F5/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F5/annotation/placeholder-5",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F5",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 5"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -617,15 +664,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/6",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F6",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 6.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F6/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F6/annotation/placeholder-6",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F6",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 6"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -680,15 +737,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/7",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F7",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 7.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F7/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F7/annotation/placeholder-7",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F7",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 7"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -743,15 +810,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/8",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F8",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 8.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F8/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F8/annotation/placeholder-8",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F8",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 8"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -806,15 +883,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/9",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F9",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 9.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F9/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F9/annotation/placeholder-9",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F9",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 9"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -869,15 +956,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/10",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F10",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 10.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F10/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F10/annotation/placeholder-10",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F10",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 10"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -932,15 +1029,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/11",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F11",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 11.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F11/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F11/annotation/placeholder-11",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F11",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 11"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -995,15 +1102,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/12",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F12",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 12.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F12/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F12/annotation/placeholder-12",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F12",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 12"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -1058,15 +1175,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/13",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F13",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 13.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F13/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F13/annotation/placeholder-13",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F13",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 13"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -1121,15 +1248,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/14",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F14",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 14.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F14/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F14/annotation/placeholder-14",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F14",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 14"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -1184,15 +1321,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/15",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F15",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 15.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F15/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F15/annotation/placeholder-15",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F15",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 15"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -1247,15 +1394,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/16",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F16",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 16.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F16/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F16/annotation/placeholder-16",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F16",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 16"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -1310,15 +1467,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/17",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F17",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 17.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F17/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F17/annotation/placeholder-17",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F17",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 17"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -1373,15 +1540,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/18",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F18",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 18.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F18/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F18/annotation/placeholder-18",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F18",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 18"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -1436,15 +1613,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/19",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F19",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 19.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F19/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F19/annotation/placeholder-19",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F19",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 19"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -1499,15 +1686,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/20",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F20",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 20.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F20/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F20/annotation/placeholder-20",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F20",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 20"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -1562,15 +1759,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/21",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F21",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 21.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F21/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F21/annotation/placeholder-21",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F21",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 21"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -1625,15 +1832,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/22",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F22",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 22.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F22/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F22/annotation/placeholder-22",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F22",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 22"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -1688,15 +1905,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/23",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F23",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 23.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F23/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F23/annotation/placeholder-23",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F23",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 23"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -1751,15 +1978,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/24",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F24",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 24.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F24/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F24/annotation/placeholder-24",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F24",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 24"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -1814,15 +2051,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/25",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F25",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 25.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F25/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F25/annotation/placeholder-25",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F25",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 25"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -1877,15 +2124,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/26",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F26",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 26.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F26/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F26/annotation/placeholder-26",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F26",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 26"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -1940,15 +2197,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/27",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F27",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 27.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F27/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F27/annotation/placeholder-27",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F27",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 27"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -2003,15 +2270,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/28",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F28",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 28.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F28/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F28/annotation/placeholder-28",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F28",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 28"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -2066,15 +2343,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/29",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F29",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 29.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F29/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F29/annotation/placeholder-29",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F29",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 29"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -2129,15 +2416,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/30",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F30",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 30.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F30/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F30/annotation/placeholder-30",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F30",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 30"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -2192,15 +2489,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/31",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F31",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 31.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F31/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F31/annotation/placeholder-31",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F31",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 31"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -2255,15 +2562,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/32",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F32",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 32.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F32/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F32/annotation/placeholder-32",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F32",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 32"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -2318,15 +2635,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/33",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F33",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 33.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F33/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F33/annotation/placeholder-33",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F33",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 33"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -2381,15 +2708,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/34",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F34",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 34.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F34/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F34/annotation/placeholder-34",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F34",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 34"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -2444,15 +2781,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/35",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F35",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 35.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F35/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F35/annotation/placeholder-35",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F35",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 35"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -2507,15 +2854,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/36",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F36",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 36.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F36/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F36/annotation/placeholder-36",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F36",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 36"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -2570,15 +2927,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/37",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F37",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 37.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F37/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F37/annotation/placeholder-37",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F37",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 37"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -2633,15 +3000,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/38",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F38",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 38.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F38/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F38/annotation/placeholder-38",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F38",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 38"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -2696,15 +3073,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/39",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F39",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 39.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F39/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F39/annotation/placeholder-39",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F39",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 39"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -2759,15 +3146,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/40",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F40",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 40.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F40/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F40/annotation/placeholder-40",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F40",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 40"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -2822,15 +3219,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/41",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F41",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 41.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F41/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F41/annotation/placeholder-41",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F41",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 41"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -2885,15 +3292,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/42",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F42",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 42.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F42/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F42/annotation/placeholder-42",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F42",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 42"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -2948,15 +3365,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/43",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F43",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 43.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F43/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F43/annotation/placeholder-43",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F43",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 43"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -3011,15 +3438,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/44",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F44",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 44.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F44/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F44/annotation/placeholder-44",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F44",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 44"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -3074,15 +3511,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/45",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F45",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 45.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F45/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F45/annotation/placeholder-45",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F45",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 45"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -3137,15 +3584,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/46",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F46",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 46.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F46/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F46/annotation/placeholder-46",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F46",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 46"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -3200,15 +3657,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/47",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F47",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 47.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F47/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F47/annotation/placeholder-47",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F47",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 47"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -3263,15 +3730,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/48",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F48",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 48.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F48/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F48/annotation/placeholder-48",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F48",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 48"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -3326,15 +3803,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/49",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F49",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 49.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F49/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F49/annotation/placeholder-49",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F49",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 49"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -3389,15 +3876,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/50",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F50",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 50.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F50/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F50/annotation/placeholder-50",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F50",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 50"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -3452,15 +3949,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/51",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F51",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 51.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F51/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F51/annotation/placeholder-51",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F51",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 51"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -3515,15 +4022,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/52",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F52",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 52.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F52/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F52/annotation/placeholder-52",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F52",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 52"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -3578,15 +4095,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/53",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F53",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 53.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F53/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F53/annotation/placeholder-53",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F53",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 53"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -3641,15 +4168,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/54",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F54",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 54.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F54/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F54/annotation/placeholder-54",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F54",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 54"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -3704,15 +4241,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/55",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F55",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 55.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F55/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F55/annotation/placeholder-55",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F55",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 55"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -3767,15 +4314,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/56",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F56",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 56.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F56/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F56/annotation/placeholder-56",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F56",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 56"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -3830,15 +4387,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/57",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F57",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 57.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F57/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F57/annotation/placeholder-57",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F57",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 57"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -3893,15 +4460,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/58",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F58",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 58.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F58/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F58/annotation/placeholder-58",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F58",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 58"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -3956,15 +4533,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/59",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F59",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 59.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F59/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F59/annotation/placeholder-59",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F59",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 59"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -4019,15 +4606,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/60",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F60",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 60.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F60/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F60/annotation/placeholder-60",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F60",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 60"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -4082,15 +4679,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/61",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F61",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 61.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F61/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F61/annotation/placeholder-61",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F61",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 61"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -4145,15 +4752,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/62",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F62",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 62.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F62/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F62/annotation/placeholder-62",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F62",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 62"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -4208,15 +4825,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/63",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F63",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 63.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F63/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F63/annotation/placeholder-63",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F63",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 63"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -4271,15 +4898,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/64",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F64",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 64.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F64/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F64/annotation/placeholder-64",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F64",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 64"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -4334,15 +4971,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/65",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F65",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 65.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F65/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F65/annotation/placeholder-65",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F65",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 65"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -4397,15 +5044,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/66",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F66",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 66.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F66/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F66/annotation/placeholder-66",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F66",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 66"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -4460,15 +5117,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/67",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F67",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 67.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F67/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F67/annotation/placeholder-67",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F67",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 67"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -4523,15 +5190,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/68",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F68",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 68.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F68/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F68/annotation/placeholder-68",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F68",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 68"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -4586,15 +5263,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/69",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F69",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 69.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F69/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F69/annotation/placeholder-69",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F69",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 69"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -4649,15 +5336,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/70",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F70",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 70.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F70/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F70/annotation/placeholder-70",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F70",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 70"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -4712,15 +5409,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/71",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F71",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 71.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F71/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F71/annotation/placeholder-71",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F71",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 71"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -4775,15 +5482,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/72",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F72",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 72.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F72/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F72/annotation/placeholder-72",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F72",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 72"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -4838,15 +5555,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/73",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F73",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 73.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F73/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F73/annotation/placeholder-73",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F73",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 73"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -4901,15 +5628,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/74",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F74",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 74.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F74/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F74/annotation/placeholder-74",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F74",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 74"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -4964,15 +5701,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/75",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F75",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 75.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F75/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F75/annotation/placeholder-75",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F75",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 75"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -5027,15 +5774,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/76",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F76",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 76.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F76/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F76/annotation/placeholder-76",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F76",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 76"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -5090,15 +5847,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/77",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F77",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 77.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F77/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F77/annotation/placeholder-77",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F77",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 77"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -5153,15 +5920,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/78",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F78",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 78.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F78/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F78/annotation/placeholder-78",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F78",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 78"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -5216,15 +5993,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/79",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F79",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 79.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F79/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F79/annotation/placeholder-79",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F79",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 79"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -5279,15 +6066,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/80",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F80",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 80.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F80/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F80/annotation/placeholder-80",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F80",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 80"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -5342,15 +6139,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/81",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F81",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 81.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F81/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F81/annotation/placeholder-81",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F81",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 81"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -5405,15 +6212,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/82",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F82",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 82.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F82/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F82/annotation/placeholder-82",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F82",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 82"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -5468,15 +6285,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/83",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F83",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 83.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F83/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F83/annotation/placeholder-83",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F83",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 83"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -5531,15 +6358,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/84",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F84",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 84.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F84/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F84/annotation/placeholder-84",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F84",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 84"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -5594,15 +6431,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/85",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F85",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 85.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F85/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F85/annotation/placeholder-85",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F85",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 85"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -5657,15 +6504,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/86",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F86",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 86.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F86/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F86/annotation/placeholder-86",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F86",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 86"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -5720,15 +6577,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/87",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F87",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 87.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F87/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F87/annotation/placeholder-87",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F87",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 87"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -5783,15 +6650,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/88",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F88",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 88.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F88/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F88/annotation/placeholder-88",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F88",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 88"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -5846,15 +6723,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/89",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F89",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 89.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F89/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F89/annotation/placeholder-89",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F89",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 89"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -5909,15 +6796,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/90",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F90",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 90.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F90/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F90/annotation/placeholder-90",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F90",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 90"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -5972,15 +6869,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/91",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F91",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 91.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F91/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F91/annotation/placeholder-91",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F91",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 91"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -6035,15 +6942,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/92",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F92",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 92.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F92/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F92/annotation/placeholder-92",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F92",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 92"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -6098,15 +7015,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/93",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F93",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 93.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F93/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F93/annotation/placeholder-93",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F93",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 93"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -6161,15 +7088,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/94",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F94",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 94.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F94/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F94/annotation/placeholder-94",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F94",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 94"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -6224,15 +7161,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/95",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F95",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 95.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F95/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F95/annotation/placeholder-95",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F95",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 95"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     },
@@ -6287,15 +7234,25 @@
       ],
       "annotations": [
         {
-          "id": "https://example.org/iiif/placeholder-annotation/96",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F96",
-          "body": {
-            "type": "TextualBody",
-            "value": "Placeholder annotation: This is where text content will be added for page 96.",
-            "format": "text/plain"
-          }
+          "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F96/page/annotations",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F96/annotation/placeholder-96",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F96",
+              "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "label": {
+                  "en": [
+                    "Placeholder body for canvas 96"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ]
     }
