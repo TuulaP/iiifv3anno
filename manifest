@@ -180,9 +180,9 @@
                 "type": "TextualBody",
                 "language": "de",
                 "format": "text/plain",
-                "value": "Göttinger Marktplatz mit Gänseliesel Brunnen"
+                "value": "Göttinger Marktplatz mit Gänseliesel Brunnen placeholder 1"
               },
-              "target": "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1"
+              "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F1"
             }
           ]
         }
