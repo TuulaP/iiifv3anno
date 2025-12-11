@@ -302,6 +302,7 @@
           "id": "https://example.org/iiif/placeholder-annotation/1",
           "type": "AnnotationPage",
           "items": [ {
+            "id": "https://example.org/iiif/placeholder-annotation/page1",
             "motivation": "commenting",
             "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F1",
             "body": {
