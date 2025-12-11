@@ -300,14 +300,16 @@
       "annotations": [
         {
           "id": "https://example.org/iiif/placeholder-annotation/1",
-          "type": "Annotation",
-          "motivation": "commenting",
-          "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F1",
-          "body": {
-            "type": "TextualBody",
-            "value": "N. 1. L'innocence de l'erreur soutenue et justifiée dans une lettre a Mr _ _ _ _ _",
-            "format": "text/plain"
+          "type": "AnnotationPage",
+          "items": [ {
+            "motivation": "commenting",
+            "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F1",
+            "body": {
+                "type": "TextualBody",
+                "value": "N. 1. L'innocence de l'erreur soutenue et justifiée dans une lettrea Mr _ _ _ _ _",
+                "format": "text/plain"
           }
+        }]
         }
       ]
     },
