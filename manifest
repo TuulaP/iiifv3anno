@@ -178,9 +178,9 @@
               "motivation": "commenting",
               "body": {
                 "type": "TextualBody",
-                "language": "de",
+                "language": "fre",
                 "format": "text/plain",
-                "value": "Göttinger Marktplatz mit Gänseliesel Brunnen placeholder 1"
+                "value": "N. 1. L'innocence de l'erreur soutenue et justifiée dans une lettre a Mr _ _ _ _ _"
               },
               "target": "https://digi-api.kansalliskirjasto.fi/iiif/3/teos%2Fbinding%2F2272222%2Fimage%2F1"
             }
